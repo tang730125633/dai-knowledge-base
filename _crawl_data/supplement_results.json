@@ -1,0 +1,82 @@
+{
+  "海洋能发电": {
+    "found": 53,
+    "written": 53,
+    "skipped": 0
+  },
+  "综合能源服务": {
+    "found": 25,
+    "written": 24,
+    "skipped": 1
+  },
+  "氢能（含燃料电池）": {
+    "found": 185,
+    "written": 183,
+    "skipped": 2
+  },
+  "电能替代": {
+    "found": 37,
+    "written": 33,
+    "skipped": 4
+  },
+  "数据中心": {
+    "found": 23,
+    "written": 23,
+    "skipped": 0
+  },
+  "箱式变电站": {
+    "found": 21,
+    "written": 19,
+    "skipped": 2
+  },
+  "电力需求响应": {
+    "found": 26,
+    "written": 24,
+    "skipped": 2
+  },
+  "太阳能热发电": {
+    "found": 52,
+    "written": 52,
+    "skipped": 0
+  },
+  "地热发电": {
+    "found": 26,
+    "written": 25,
+    "skipped": 1
+  },
+  "垃圾发电": {
+    "found": 57,
+    "written": 56,
+    "skipped": 1
+  },
+  "居民用电": {
+    "found": 2,
+    "written": 2,
+    "skipped": 0
+  },
+  "商业用电": {
+    "found": 1,
+    "written": 1,
+    "skipped": 0
+  },
+  "工业用电": {
+    "found": 0,
+    "written": 0,
+    "skipped": 0
+  },
+  "农业用电": {
+    "found": 6,
+    "written": 6,
+    "skipped": 0
+  },
+  "虚拟电厂": {
+    "found": 13,
+    "written": 9,
+    "skipped": 4
+  },
+  "海底电缆": {
+    "found": 44,
+    "written": 42,
+    "skipped": 2
+  }
+}
