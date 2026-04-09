@@ -1,0 +1,37 @@
+{
+  "device-1": {
+    "deviceId": "<REDACTED>",
+    "publicKey": "<REDACTED>",
+    "platform": "darwin",
+    "clientId": "cli",
+    "clientMode": "probe",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing",
+      "operator.talk.secrets"
+    ],
+    "approvedScopes": [
+      "operator.admin"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "<REDACTED>",
+        "role": "operator",
+        "scopes": [
+          "operator.admin"
+        ],
+        "createdAtMs": 1773658818674,
+        "lastUsedAtMs": 1773659461147
+      }
+    },
+    "createdAtMs": 1773658818674,
+    "approvedAtMs": 1773658818674
+  }
+}
