@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "profiles": {
+    "moonshot:default": {
+      "type": "api_key",
+      "provider": "moonshot",
+      "key": "<REDACTED>"
+    },
+    "kimi-coding:default": {
+      "type": "api_key",
+      "provider": "kimi-coding",
+      "key": "<REDACTED>"
+    },
+    "zai:default": {
+      "type": "api_key",
+      "provider": "zai",
+      "key": "<REDACTED>"
+    },
+    "openrouter:default": {
+      "type": "api_key",
+      "provider": "openrouter",
+      "key": "<REDACTED>"
+    },
+    "google-vertex:default": {
+      "type": "api_key",
+      "provider": "google-vertex",
+      "key": "<REDACTED>"
+    },
+    "anthropic:111": {
+      "type": "api_key",
+      "provider": "anthropic",
+      "key": "<REDACTED>"
+    },
+    "anthropic:default": {
+      "type": "api_key",
+      "provider": "anthropic",
+      "key": "<REDACTED>"
+    },
+    "google:default": {
+      "type": "api_key",
+      "provider": "google",
+      "key": "<REDACTED>"
+    },
+    "openai-codex:default": {
+      "type": "oauth",
+      "provider": "openai-codex",
+      "access": "<REDACTED>",
+      "refresh": "<REDACTED>",
+      "expires": 1776068070000,
+      "accountId": "<REDACTED>",
+      "managedBy": "codex-cli"
+    }
+  }
+}

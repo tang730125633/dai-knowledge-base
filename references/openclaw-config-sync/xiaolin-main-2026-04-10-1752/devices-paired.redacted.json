@@ -1,0 +1,28 @@
+{
+  "29cfbfaaa4f3326ef96d0ad09e88c246eaa8f4b9ec774f07f563934905f2f565": {
+    "deviceId": "<REDACTED>",
+    "publicKey": "<REDACTED>",
+    "platform": "darwin",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing",
+      "operator.talk.secrets"
+    ],
+    "approvedScopes": [
+      "operator.admin"
+    ],
+    "tokens": "<REDACTED>",
+    "createdAtMs": 1773658818674,
+    "approvedAtMs": 1773658818674,
+    "displayName": "agent"
+  }
+}

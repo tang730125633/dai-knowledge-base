@@ -1,0 +1,433 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.4.9",
+    "lastTouchedAt": "2026-04-10T05:02:27.108Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-04-01T13:03:02.216Z",
+    "lastRunVersion": "2026.3.13",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "moonshot:default": {
+        "provider": "moonshot",
+        "mode": "api_key"
+      },
+      "kimi-coding:default": {
+        "provider": "kimi-coding",
+        "mode": "api_key"
+      },
+      "zai:default": {
+        "provider": "zai",
+        "mode": "api_key"
+      },
+      "openrouter:default": {
+        "provider": "openrouter",
+        "mode": "api_key"
+      },
+      "anthropic:111": {
+        "provider": "anthropic",
+        "mode": "api_key"
+      },
+      "anthropic:default": {
+        "provider": "anthropic",
+        "mode": "api_key"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "moonshot": {
+        "baseUrl": "https://api.moonshot.cn/v1",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "kimi-k2.5",
+            "name": "Kimi K2.5",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 256000,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "kimi-coding": {
+        "baseUrl": "https://api.kimi.com/coding/",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "k2p5",
+            "name": "Kimi for Coding",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 262144,
+            "maxTokens": 32768
+          }
+        ]
+      },
+      "zai": {
+        "baseUrl": "https://open.bigmodel.cn/api/coding/paas/v4",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "glm-5",
+            "name": "GLM-5",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
+          },
+          {
+            "id": "glm-4.7",
+            "name": "GLM-4.7",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
+          },
+          {
+            "id": "glm-4.7-flash",
+            "name": "GLM-4.7 Flash",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
+          },
+          {
+            "id": "glm-4.7-flashx",
+            "name": "GLM-4.7 FlashX",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "google/gemini-3-flash-preview",
+        "fallbacks": [
+          "google/gemini-2.5-flash",
+          "zai/glm-5",
+          "openrouter/anthropic/claude-sonnet-4-6",
+          "openrouter/openai/gpt-4.1-mini"
+        ]
+      },
+      "imageModel": {
+        "primary": "google/gemini-2.5-flash"
+      },
+      "models": {
+        "openrouter/openai/gpt-4.1-mini": {},
+        "openrouter/anthropic/claude-sonnet-4-6": {},
+        "anthropic/claude-sonnet-4-6": {},
+        "anthropic/claude-opus-4-6": {},
+        "google/gemini-2.5-flash": {},
+        "google/gemini-3-flash-preview": {},
+        "google/gemini-3.1-pro-preview": {}
+      },
+      "workspace": "/Users/mf/.openclaw/workspace",
+      "contextTokens": 64000,
+      "contextPruning": {
+        "mode": "cache-ttl",
+        "ttl": "1h"
+      },
+      "compaction": {
+        "mode": "default"
+      },
+      "heartbeat": {
+        "every": "1h"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      },
+      "imageGenerationModel": {
+        "primary": "google/gemini-2.5-flash-image",
+        "fallbacks": [
+          "google/gemini-3.1-flash-image-preview"
+        ]
+      },
+      "videoGenerationModel": {
+        "primary": "google/veo-3.1-lite-generate-preview",
+        "fallbacks": [
+          "google/veo-3.1-fast-generate-preview"
+        ]
+      }
+    }
+  },
+  "session": {
+    "maintenance": {
+      "mode": "enforce",
+      "pruneAfter": "7d",
+      "maxEntries": 120,
+      "rotateBytes": "5mb",
+      "resetArchiveRetention": "7d"
+    }
+  },
+  "cron": {
+    "sessionRetention": "6h"
+  },
+  "tools": {
+    "alsoAllow": [
+      "wecom_mcp"
+    ]
+  },
+  "messages": {
+    "groupChat": {
+      "mentionPatterns": [
+        "小婷",
+        "婷婷",
+        "小婷婷",
+        "@小婷",
+        "帮我",
+        "帮忙",
+        "给我分析",
+        "给我参谋",
+        "给点建议",
+        "你觉得",
+        "你说",
+        "你看",
+        "你分析",
+        "怎么办",
+        "怎么看",
+        "怎么搞",
+        "咋整",
+        "如何",
+        "什么意思",
+        "咱们",
+        "我问你",
+        "有没有建议"
+      ]
+    },
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "self-improvement": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "channels": {
+    "wecom": {
+      "enabled": false,
+      "botId": "aibmEJ1776Bhq0Pi6Sv6kc0bK2Bgb7ewzvZ",
+      "secret": "<REDACTED>",
+      "allowFrom": [
+        "*"
+      ],
+      "dmPolicy": "open",
+      "groupPolicy": "open",
+      "groupAllowFrom": [
+        "*"
+      ],
+      "groups": {
+        "*": {
+          "requireMention": false
+        }
+      }
+    },
+    "feishu": {
+      "enabled": true,
+      "appId": "cli_a958972013f8dccc",
+      "appSecret": "<REDACTED>",
+      "domain": "feishu",
+      "connectionMode": "websocket",
+      "dmPolicy": "open",
+      "groupPolicy": "open",
+      "requireMention": false,
+      "allowFrom": [
+        "*"
+      ],
+      "groupAllowFrom": [
+        "*"
+      ],
+      "groups": {
+        "*": {
+          "requireMention": false
+        },
+        "oc_ee33bb8c43e6d9efff353f9d8e13ffe8": {
+          "requireMention": false
+        }
+      }
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "<REDACTED>"
+    }
+  },
+  "memory": {
+    "backend": "qmd",
+    "citations": "auto",
+    "qmd": {
+      "command": "/Users/mf/.openclaw/bin/qmd-qwen8b",
+      "searchMode": "search",
+      "includeDefaultMemory": true,
+      "paths": [
+        {
+          "path": "/Users/mf/.openclaw/workspace/knowledge-base",
+          "name": "knowledge-base"
+        },
+        {
+          "path": "/Users/mf/.openclaw/workspace/references",
+          "name": "references"
+        },
+        {
+          "path": "/Users/mf/.openclaw/workspace/templates",
+          "name": "templates"
+        },
+        {
+          "path": "~/.openclaw/workspace/经营管理知识库",
+          "name": "business-wisdom-kb",
+          "pattern": "**/*.md"
+        }
+      ],
+      "update": {
+        "interval": "30m",
+        "onBoot": true
+      }
+    }
+  },
+  "skills": {
+    "entries": {
+      "baidu-search": {
+        "env": {
+          "BAIDU_API_KEY": "bce-v3/ALTAK-AcZtxBHCRdEoqtvl4W2lG/bf83fa57312b625be6869e118a1883e968c8d76a"
+        }
+      },
+      "wechat-article-producer": {
+        "env": {
+          "WECHAT_APPID": "wx1846d3938b74b976",
+          "WECHAT_SECRET": "<REDACTED>",
+          "WECHAT_AUTHOR": "零碳电力圈"
+        }
+      }
+    }
+  },
+  "plugins": {
+    "allow": [
+      "wecom-openclaw-plugin",
+      "feishu",
+      "google",
+      "zai",
+      "openrouter",
+      "anthropic"
+    ],
+    "entries": {
+      "wecom-openclaw-plugin": {
+        "enabled": true
+      },
+      "feishu": {
+        "enabled": true
+      },
+      "google": {
+        "enabled": true
+      },
+      "zai": {
+        "enabled": true
+      },
+      "openrouter": {
+        "enabled": true
+      },
+      "anthropic": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "wecom-openclaw-plugin": {
+        "source": "npm",
+        "spec": "@wecom/wecom-openclaw-plugin",
+        "installPath": "/Users/mf/.openclaw/extensions/wecom-openclaw-plugin",
+        "version": "2026.4.8",
+        "resolvedName": "@wecom/wecom-openclaw-plugin",
+        "resolvedVersion": "2026.4.8",
+        "resolvedSpec": "@wecom/wecom-openclaw-plugin@2026.4.8",
+        "integrity": "sha512-bGbS8493sHT34FAYaugep2OLjb4dvYfLXMSfZguK/4s8i5PM//2iy4XPUsniacl8LNSUxiF/FuQGM/LJxNwrFg==",
+        "shasum": "f2e8c0346dc274b9586a38b9f51796ee4e75e9c1",
+        "resolvedAt": "2026-04-09T11:12:01.616Z",
+        "installedAt": "2026-04-09T11:12:15.332Z"
+      },
+      "feishu": {
+        "source": "npm",
+        "spec": "@openclaw/feishu",
+        "installPath": "/Users/mf/.openclaw/extensions/feishu",
+        "version": "2026.3.13",
+        "resolvedName": "@openclaw/feishu",
+        "resolvedVersion": "2026.3.13",
+        "resolvedSpec": "@openclaw/feishu@2026.3.13",
+        "integrity": "sha512-D5vPkgGZ9lfCQnDFlGrQN6NCSUYRgYW9k7amW3qlm9zBI4Sp+alRZVqLZ4yZ2eCXHjw9RVp/L75wjJ7NBQyfEw==",
+        "shasum": "39128ff918f8d3387331818cbe3f8b24a82e4c0d",
+        "resolvedAt": "2026-04-09T11:12:16.351Z",
+        "installedAt": "2026-04-09T11:12:20.452Z"
+      }
+    }
+  }
+}

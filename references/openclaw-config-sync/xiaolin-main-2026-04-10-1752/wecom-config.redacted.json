@@ -1,0 +1,8 @@
+{
+  "mcpConfig": {
+    "doc": {
+      "type": "streamable-http",
+      "url": "https://qyapi.weixin.qq.com/mcp/bot/doc?uaKey=2LoGxjxaCHQ7tdxdEoZJiVqj3G8GboX8ViQB6iD2774JLQsgi9RrYHG5jCcK2kxzyri1CkqaFee3QNDxMKSpCp7taBHAx"
+    }
+  }
+}

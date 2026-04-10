@@ -1,0 +1,62 @@
+{
+  "snapshotLabel": "xiaolin-main-2026-04-10-1752",
+  "generatedAt": "2026-04-10T09:52:50.305Z",
+  "sourceRoot": "/Users/mf/.openclaw",
+  "targetRepoPath": "/Users/mf/.openclaw/workspace/references/openclaw-config-sync/xiaolin-main-2026-04-10-1752",
+  "redaction": {
+    "marker": "<REDACTED>",
+    "exactKeys": [
+      "access",
+      "accountid",
+      "api_key",
+      "apikey",
+      "appsecret",
+      "authorization",
+      "cookie",
+      "deviceid",
+      "key",
+      "password",
+      "publickey",
+      "refresh",
+      "secret",
+      "token",
+      "tokens"
+    ],
+    "suffixes": [
+      "_token",
+      "_secret",
+      "_password"
+    ],
+    "note": "URL query params with token/key/secret semantics are also redacted."
+  },
+  "files": [
+    {
+      "source": "/Users/mf/.openclaw/openclaw.json",
+      "output": "openclaw.redacted.json"
+    },
+    {
+      "source": "/Users/mf/.openclaw/agents/main/agent/auth-profiles.json",
+      "output": "auth-profiles.redacted.json"
+    },
+    {
+      "source": "/Users/mf/.openclaw/agents/main/agent/models.json",
+      "output": "models.redacted.json"
+    },
+    {
+      "source": "/Users/mf/.openclaw/cron/jobs.json",
+      "output": "cron-jobs.redacted.json"
+    },
+    {
+      "source": "/Users/mf/.openclaw/devices/paired.json",
+      "output": "devices-paired.redacted.json"
+    },
+    {
+      "source": "/Users/mf/.openclaw/devices/pending.json",
+      "output": "devices-pending.redacted.json"
+    },
+    {
+      "source": "/Users/mf/.openclaw/wecomConfig/config.json",
+      "output": "wecom-config.redacted.json"
+    }
+  ]
+}

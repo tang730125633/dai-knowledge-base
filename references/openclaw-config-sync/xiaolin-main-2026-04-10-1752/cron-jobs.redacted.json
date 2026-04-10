@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "cefafdad-a713-436e-9ef5-7668a27c3218",
+      "agentId": "main",
+      "sessionKey": "agent:main:main",
+      "name": "零碳能源早报",
+      "enabled": true,
+      "createdAtMs": 1774725056770,
+      "updatedAtMs": 1775788236193,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 10 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "【每日早报任务】请立即执行早报生成脚本：\n\npython3 /Users/mf/.openclaw/workspace/skills/morning-briefing/scripts/collect_and_build.py\n\n该脚本会自动完成：采集→查重→铜价抓取→生成早报→通过飞书通道推送到默认飞书群。\n\n不需要手动访问网站或生成内容。"
+      },
+      "state": {
+        "nextRunAtMs": 1775874600000,
+        "lastRunAtMs": 1775788200009,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 36184,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
+      }
+    },
+    {
+      "id": "3cf62afe-2134-443c-9da3-d33911df1255",
+      "agentId": "main",
+      "sessionKey": "agent:main:main",
+      "name": "能源行业日报",
+      "enabled": false,
+      "createdAtMs": 1774725062520,
+      "updatedAtMs": 1774744240896,
+      "schedule": {
+        "expr": "30 8 * * *",
+        "kind": "cron",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "【每日日报任务】请执行以下步骤：\n1. 用浏览器访问国家能源局 nea.gov.cn 和发改委 ndrc.gov.cn 获取最新3条能源行业动态\n2. 生成日报内容（时间+3条动态+结束语）\n3. 用企业微信应用发送给泽龙和戴总：python3 scripts/send_wecom_app_msg.py \"泽龙|戴总\" \"日报内容\""
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "lastRunAtMs": 1774744200013,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 40883,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
+      }
+    },
+    {
+      "id": "0c0551f5-67d0-4b0c-8f4e-13b9422cde2a",
+      "agentId": "main",
+      "name": "小琪刷牙提醒",
+      "enabled": true,
+      "createdAtMs": 1774883994540,
+      "updatedAtMs": 1775782842036,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "【提醒任务】提醒小琪刷牙。在企业微信群@小琪：'小琪，该刷牙了！记得刷够2分钟哦~'"
+      },
+      "state": {
+        "nextRunAtMs": 1775869200000,
+        "lastRunAtMs": 1775782800007,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 42029,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
+      }
+    },
+    {
+      "id": "task-queue-poll-dai",
+      "agentId": "main",
+      "name": "openclaw_watchdog_every30min",
+      "description": "每30分钟轮询飞书Base任务队列，领取执行方=戴总-OpenClaw的任务",
+      "enabled": true,
+      "createdAtMs": 1775441580000,
+      "updatedAtMs": 1775813411039,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/30 * * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "thinking": "minimal",
+        "message": "执行飞书 Base 任务队列轮询。这是后台自动任务，不得询问用户确认，不得先汇报计划，不得等待进一步指令。\n\n必须严格按以下步骤执行，不得跳步，不得自行改成别的流程：\n\n1. 第一件事：执行\npython3 /Users/mf/.openclaw/workspace/scripts/task_queue_poll_dai_prepare.py\n\n2. 读取上一步 stdout：\n- 如果 status=no_task：说明脚本已经完成“无任务日志写入”，你必须立即结束，不再扫描队列，不再写任何表。\n- 如果 status=claimed：说明脚本已经完成“选中正确记录 + 认领处理中 + 落盘任务文件”。继续下一步。\n\n3. 读取任务文件：\n/tmp/openclaw_task_queue_poll_dai_current.json\n\n4. 你只允许执行这个任务文件里给出的那一条任务：\n- 只处理其中的 record_id / task_id / title / description\n- 禁止重新扫描任务表\n- 禁止改成别的任务\n- 禁止把结果写回到其他 record_id\n\n5. 严格解析 description 中的 TYPE / BODY / SUCCESS_CRITERIA 并执行。\n- 若 BODY 中包含 exec:，优先按命令执行\n- 若是文件操作任务，可直接用工具修改文件\n- 不得向任何人请求确认\n\n6. 执行结束后，必须调用 finalize 脚本回写结果：\n成功时：\npython3 /Users/mf/.openclaw/workspace/scripts/task_queue_poll_dai_finalize.py --record-id '<record_id>' --title '<title>' --status success --result '<关键结果摘要>'\n失败时：\npython3 /Users/mf/.openclaw/workspace/scripts/task_queue_poll_dai_finalize.py --record-id '<record_id>' --title '<title>' --status failure --result '<错误摘要>'\n\n7. 除了 prepare/finalize 两个脚本外，你不得直接写任务队列表或轮询日志表。\n\n输出要求：\n- 这是内部后台任务；不要写聊天式回复。\n- 只做执行，不做请示。"
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "last",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1775815200000,
+        "lastRunAtMs": 1775813400008,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 11031,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
+      }
+    },
+    {
+      "id": "6c612c2a-03dd-482f-bc45-0d0748c2b7c4",
+      "agentId": "main",
+      "sessionKey": "agent:main:main",
+      "name": "dai_enterprise_comprehensive_report_6h",
+      "enabled": true,
+      "createdAtMs": 1775591079408,
+      "updatedAtMs": 1775793680643,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 0,6,12,18 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "thinking": "minimal",
+        "message": "执行6小时综合汇报任务。这是后台自动任务，必须立即执行，不得询问用户确认。\n\n执行步骤：\n\n1. 读取飞书多维表格三张表数据（使用 lark-cli as user）：\n   - 业务进展表：lark-cli base +record-list --base-token G0sMbCDFVag3ensKokLc93DAnsd --table-id tbl8LCqjKT9j2znn --as user\n   - 任务队列表：lark-cli base +record-list --base-token G0sMbCDFVag3ensKokLc93DAnsd --table-id tblYKzQutnl0vxiu --as user\n   - 轮询日志表：lark-cli base +record-list --base-token G0sMbCDFVag3ensKokLc93DAnsd --table-id tblzclbdamLKtUaL --as user\n\n2. 检查系统状态：\n   - A网关：openclaw gateway status\n   - B飞书CLI：lark-cli --version\n   - C渠道：检查飞书通道配置\n   - D知识库：ls /Users/mf/.openclaw/workspace/knowledge-base/ 2>/dev/null\n   - E脚本：ls /Users/mf/.openclaw/workspace/scripts/\n   - F索引：ls /Users/mf/.openclaw/workspace/archive/ 2>/dev/null\n\n3. 按以下格式生成汇报（严格遵守模板）：\n\n📊 **戴总企业服务 | {{日期}} {{时间}} 综合汇报**\n\n**━━ 一、业务进展 ━━**\n\n🟠 **早报系统** — {{状态}} {{进度}}%\n{{一句话说明}}\n\n🔵 **知识库系统** — {{状态}} {{进度}}%\n{{一句话说明}}\n\n🟣 **人格系统** — {{状态}} {{进度}}%\n{{一句话说明}}\n\n🟤 **图像生成系统** — {{状态}} {{进度}}%\n{{一句话说明}}\n\n📌 **过去 6 小时工作总结**\n• {{要点}}\n\n📎 [业务进展表](https://ltny.feishu.cn/base/G0sMbCDFVag3ensKokLc93DAnsd?table=tbl8LCqjKT9j2znn) | [任务队列](https://ltny.feishu.cn/base/G0sMbCDFVag3ensKokLc93DAnsd?table=tblYKzQutnl0vxiu) | [轮询日志](https://ltny.feishu.cn/base/G0sMbCDFVag3ensKokLc93DAnsd?table=tblzclbdamLKtUaL)\n\n**━━ 二、系统技术状态 ━━**\n\nA网关{{✅/⚠️}} B飞书CLI{{✅/⚠️}} C渠道{{✅/⚠️}} D知识库{{✅/⚠️}} E脚本{{✅/⚠️}} F索引{{✅/⚠️}} — **{{全绿/有异常}}**\n\n**轮询健康度（今日）**\n🤖 小婷：轮询 N 次，执行 N 次任务 — 任务 ✅N/❌N/⏳N\n🤖 小琳：轮询 N 次，执行 N 次任务 — 任务 ✅N/❌N/⏳N\n📊 双端合计 N 次轮询，N 次有效执行，系统心跳{{正常/异常}}\n\n下次汇报：{{下一个0/6/12/18点}}\n\n4. 发送到飞书群（使用 bot 身份）：\nlark-cli im +messages-send --chat-id oc_ee33bb8c43e6d9efff353f9d8e13ffe8 --markdown --as bot '{{汇报内容}}'\n\n如果 bot 失败，改用 user 身份：\nlark-cli im +messages-send --chat-id oc_ee33bb8c43e6d9efff353f9d8e13ffe8 --markdown --as user '{{汇报内容}}'\n\n铁律：只发一条消息，必须带飞书多维表格链接，轮询健康度归入第二段。"
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1775815200000,
+        "lastRunAtMs": 1775793623200,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 57443,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0
+      }
+    }
+  ]
+}
