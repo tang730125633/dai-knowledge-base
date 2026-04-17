@@ -1,0 +1,5 @@
+
+# 戴总的 Excel 原始文件（不入 Git，但规范化后的 JSON 可以）
+文件库.xlsx
+Desktop/*.xlsx
+__pycache__/
