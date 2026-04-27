@@ -1,0 +1,23 @@
+{
+  "batch_name": "第58部分新增官方可核验去重",
+  "documents": [
+    {
+      "signed_date": "2017-08-28",
+      "doc_no": "发改办能源〔2017〕1453号",
+      "title": "关于开展电力现货市场建设试点工作的通知",
+      "issuing_body": "国家发展改革委办公厅 国家能源局综合司",
+      "category": "58_全国统一电力市场建设",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/201709/t20170905_962552.html",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2019-07-31",
+      "doc_no": "发改办能源规〔2019〕828号",
+      "title": "关于深化电力现货市场建设试点工作的意见",
+      "issuing_body": "国家发展改革委办公厅 国家能源局综合司",
+      "category": "58_全国统一电力市场建设",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/201908/t20190807_960970.html",
+      "pdf_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/201908/W020190905495761711103.pdf"
+    }
+  ]
+}

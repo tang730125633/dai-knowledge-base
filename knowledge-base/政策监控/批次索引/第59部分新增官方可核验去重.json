@@ -1,0 +1,60 @@
+{
+  "summary": {
+    "generated_at": "2026-04-27T20:19:24.373710",
+    "manifest": "/Users/mf/.openclaw/workspace/knowledge-base/政策监控/_57_60_refetch_manifests_20260427/59_新增官方可核验_manifest.json",
+    "batch_name": "第59部分新增官方可核验去重",
+    "out_root": "/Users/mf/.openclaw/workspace/knowledge-base/政策监控/第五十九批补抓：新增官方可核验去重2条/raw",
+    "total": 2,
+    "ok_count": 2,
+    "markdown_count": 0,
+    "failed_count": 0
+  },
+  "items": [
+    {
+      "title": "关于加强和规范电网规划投资管理工作的通知",
+      "doc_no": "发改能源规〔2020〕816号",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "signed_date": "2020-05-28",
+      "published_date": "",
+      "category": "59_电力规划、电网建设与主配微网协同发展",
+      "official_html_url": "",
+      "official_pdf_url": "https://zfxxgk.ndrc.gov.cn/upload/images/202210/202210411191152.pdf",
+      "status": "ok",
+      "method": "direct_pdf",
+      "capture_profile": "",
+      "crop_top_px": 0,
+      "anchor_selector": "",
+      "direct_pdf_error": "",
+      "error": "",
+      "generated_at": "2026-04-27T20:19:18.669728",
+      "pdf_path": "/Users/mf/.openclaw/workspace/knowledge-base/政策监控/第五十九批补抓：新增官方可核验去重2条/raw/2020-05-28_发改能源规〔2020〕816号_关于加强和规范电网规划投资管理工作的通知.pdf",
+      "screenshot_path": "",
+      "markdown_path": "",
+      "size_bytes": 182609,
+      "sha1": "78fc1713449462020941e54d93b66fe314c6cd5f"
+    },
+    {
+      "title": "国家发展改革委关于加快配电网建设改造的指导意见",
+      "doc_no": "发改能源〔2015〕1899号",
+      "issuing_body": "国家发展改革委",
+      "signed_date": "2015-08-31",
+      "published_date": "",
+      "category": "59_电力规划、电网建设与主配微网协同发展",
+      "official_html_url": "https://www.nea.gov.cn/2015-09/02/c_134579478.htm",
+      "official_pdf_url": "",
+      "status": "ok",
+      "method": "delivery_v3_browser_print_pdf",
+      "capture_profile": "delivery_v3_browser_print_pdf",
+      "crop_top_px": 0,
+      "anchor_selector": "",
+      "direct_pdf_error": "",
+      "error": "",
+      "generated_at": "2026-04-27T20:19:24.372659",
+      "pdf_path": "/Users/mf/.openclaw/workspace/knowledge-base/政策监控/第五十九批补抓：新增官方可核验去重2条/raw/2015-08-31_发改能源〔2015〕1899号_国家发展改革委关于加快配电网建设改造的指导意见.pdf",
+      "screenshot_path": "",
+      "markdown_path": "",
+      "size_bytes": 816266,
+      "sha1": "e74e2a5bcecd10b515b660b86b3f49e7d8c5ed99"
+    }
+  ]
+}

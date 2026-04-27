@@ -1,0 +1,41 @@
+{
+  "batch_name": "第57部分新增官方可核验去重",
+  "documents": [
+    {
+      "signed_date": "2017-09-20",
+      "doc_no": "发改运行规〔2017〕1690号",
+      "title": "关于深入推进供给侧结构性改革做好新形势下电力需求侧管理工作的通知",
+      "issuing_body": "国家发展改革委等部门",
+      "category": "57_电力需求侧管理、需求响应、负荷管理与虚拟电厂",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/201709/t20170926_960924.html",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2017-11-15",
+      "doc_no": "国能发监管〔2017〕67号",
+      "title": "国家能源局关于印发《完善电力辅助服务补偿（市场）机制工作方案》的通知",
+      "issuing_body": "国家能源局",
+      "category": "57_电力需求侧管理、需求响应、负荷管理与虚拟电厂",
+      "html_url": "https://zfxxgk.nea.gov.cn/auto92/201711/t20171122_3058.htm",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2016-05-16",
+      "doc_no": "发改能源〔2016〕1054号",
+      "title": "关于推进电能替代的指导意见",
+      "issuing_body": "国家发展改革委等部门",
+      "category": "57_电力需求侧管理、需求响应、负荷管理与虚拟电厂",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/201605/t20160524_963071.html",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2015-07-06",
+      "doc_no": "发改运行〔2015〕1518号",
+      "title": "关于促进智能电网发展的指导意见",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "category": "57_电力需求侧管理、需求响应、负荷管理与虚拟电厂",
+      "html_url": "https://www.ndrc.gov.cn/fzggw/jgsj/yxj/sjdt/201507/t20150706_986805.html",
+      "pdf_url": ""
+    }
+  ]
+}

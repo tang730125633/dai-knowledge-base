@@ -1,0 +1,32 @@
+{
+  "batch_name": "第60部分新增官方可核验去重",
+  "documents": [
+    {
+      "signed_date": "2016-04-27",
+      "doc_no": "工业和信息化部令第33号",
+      "title": "工业节能管理办法",
+      "issuing_body": "工业和信息化部",
+      "category": "60_电力需求侧管理、需求响应与能效提升",
+      "html_url": "https://www.gov.cn/gongbao/content/2016/content_5097562.htm",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2017-03-01",
+      "doc_no": "建科〔2017〕53号",
+      "title": "建筑节能与绿色建筑发展“十三五”规划",
+      "issuing_body": "住房城乡建设部",
+      "category": "60_电力需求侧管理、需求响应与能效提升",
+      "html_url": "https://zfcxjs.tj.gov.cn/ztzl_70/jjjgcjjjyth/lsjzjj/cyzc/202211/t20221125_6043355.html",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2022-03-01",
+      "doc_no": "建标〔2022〕24号",
+      "title": "“十四五”建筑节能与绿色建筑发展规划",
+      "issuing_body": "住房城乡建设部",
+      "category": "60_电力需求侧管理、需求响应与能效提升",
+      "html_url": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2024/art_17339_765109.html",
+      "pdf_url": ""
+    }
+  ]
+}
