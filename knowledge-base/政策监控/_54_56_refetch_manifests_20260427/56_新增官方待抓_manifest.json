@@ -1,0 +1,23 @@
+{
+  "batch_name": "第56部分新增官方可核验",
+  "documents": [
+    {
+      "signed_date": "2022-01-30",
+      "doc_no": "发改能源〔2022〕211号",
+      "title": "能源领域碳达峰实施方案",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "category": "56_电力行业碳达峰碳中和、绿色低碳转型、节能降碳与循环经济",
+      "html_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202203/t20220322_1319849.html",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2018-06-21",
+      "doc_no": "发改价格规〔2018〕943号",
+      "title": "关于创新和完善促进绿色发展价格机制的意见",
+      "issuing_body": "国家发展改革委",
+      "category": "56_电力行业碳达峰碳中和、绿色低碳转型、节能降碳与循环经济",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/201806/t20180629_960951.html",
+      "pdf_url": ""
+    }
+  ]
+}
