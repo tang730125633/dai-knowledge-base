@@ -1,0 +1,227 @@
+{
+  "batch_name": "第三十批补抓：跨批去重官方20条",
+  "generated_at": "2026-04-27T16:40:00+08:00",
+  "source_policy": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF",
+  "documents": [
+    {
+      "title": "【专家解读 | 提升产品设备能效 深挖节能降碳潜力】-国家发展和改革委员会",
+      "doc_no": "发改环资规〔2022〕1719号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2022-11-01",
+      "published_date": "2022-11-01",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/jd/jd/202211/t20221118_1341576.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "【关于印发《节能降碳中央预算内投资专项管理办法》的通知(发改环资规〔2024〕338号)】-国家发展和改革委员会",
+      "doc_no": "发改环资规〔2024〕338号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2024-04-01",
+      "published_date": "2024-04-01",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202404/t20240408_1365534.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "【关于印发《节能降碳中央预算内投资专项管理办法》的通知（发改环资规〔2025〕1228号）】-国家发展和改革委员会",
+      "doc_no": "发改环资规〔2025〕1228号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2025-10-01",
+      "published_date": "2025-10-01",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202510/t20251014_1400943.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "关于做好发电供热企业直保煤炭中长期合同全覆盖铁路运力保障有关工作的通知",
+      "doc_no": "发改办运行〔2021〕750号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2021-09-29",
+      "published_date": "2021-09-29",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202109/t20210929_1298125.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "关于加强煤炭清洁高效利用的意见",
+      "doc_no": "发改运行〔2024〕1345号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2024-09-29",
+      "published_date": "2024-09-29",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202409/t20240929_1393429_ext.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "关于印发《新一代煤电升级专项行动实施方案（2025—2027年）》的通知",
+      "doc_no": "发改能源〔2025〕363号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2025-04-14",
+      "published_date": "2025-04-14",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202504/t20250414_1397185.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "关于印发《热电联产管理办法》的通知",
+      "doc_no": "发改能源〔2016〕617号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2016-06-07",
+      "published_date": "2016-06-07",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.ndrc.gov.cn/xwdt/gdzt/cjnjtzzcwj/201606/t20160607_1033479.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "关于开展全国煤电机组改造升级的通知",
+      "doc_no": "发改运行〔2021〕1519号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2021-11-03",
+      "published_date": "2021-11-03",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202111/t20211103_1302856.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "关于统筹节能降碳和回收利用 加快重点领域产品设备更新改造的指导意见",
+      "doc_no": "发改环资〔2023〕178号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2023-02-24",
+      "published_date": "2023-02-24",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202302/t20230224_1349405.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "关于请报送二氧化碳捕集利用与封存（CCUS）项目有关情况的通知",
+      "doc_no": "发改办环资〔2021〕496号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2021-06-23",
+      "published_date": "2021-06-23",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202106/t20210623_1283821.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "国家能源局关于下达2020年煤电行业淘汰落后产能目标任务的通知",
+      "doc_no": "国能发电力〔2020〕37号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2020-07-14",
+      "published_date": "2020-07-14",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "http://zfxxgk.nea.gov.cn/2020-07/14/c_139234797.htm",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "【国家发展改革委有关负责同志就《关于加强电网调峰储能和智能化调度能力建设的指导意见》答记者问】-国家发展和改革委员会",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2024-02-01",
+      "published_date": "2024-02-01",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/jd/jd/202402/t20240227_1364237.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "两部制电价优化能源价格体系",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2024-01-19",
+      "published_date": "2024-01-19",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.nea.gov.cn/2024-01/19/c_1310761046.htm",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "国家发展改革委有关负责同志就建立煤电容量电价机制答记者问",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2023-11-10",
+      "published_date": "2023-11-10",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/jd/jd/202311/t20231110_1361904.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "国家发展改革委等部门联合印发《关于加强煤炭清洁高效利用的意见》",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2024-09-30",
+      "published_date": "2024-09-30",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.ndrc.gov.cn/xwdt/xwfb/202409/t20240930_1393522.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "央企火电厂逐“绿”生长 助力煤电行业向“新”而行",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2024-06-14",
+      "published_date": "2024-06-14",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "http://www.nea.gov.cn/2024-06/14/c_1310778331.htm",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "推进能源清洁高效利用，促进热电联产健康有序发展--解读《关于印发<热电联产管理办法>的通知》",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2016-04-18",
+      "published_date": "2016-04-18",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/jd/jd/201604/t20160418_1182717.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "湖南省煤电机组“三改联动”取得良好成效",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2024-01-25",
+      "published_date": "2024-01-25",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "https://hunb.nea.gov.cn/dtyw/jgdt/202401/t20240125_229513.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "煤电“三改联动”完成“十四五”目标八成以上",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2023-09-11",
+      "published_date": "2023-09-11",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "http://www.nea.gov.cn/2023-09/11/c_1310740905.htm",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "能源重点领域大规模设备更新实施方案",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2024-08-21",
+      "published_date": "2024-08-21",
+      "category": "煤电转型 ／ 灵活性改造 ／ 节能降碳 ／ 供热 ／ 容量价值",
+      "html_url": "",
+      "pdf_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202408/P020240821594442802903.pdf",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "batch_name": "第二十九批补抓：跨批去重官方20条",
+  "generated_at": "2026-04-27T16:40:00+08:00",
+  "source_policy": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF",
+  "documents": [
+    {
+      "title": "【国家能源局有关负责同志就《关于印发〈电力中长期交易基本规则—绿色电力交易专章〉的通知》答记者问】-国家发展和改革委员会",
+      "doc_no": "国办发〔2024〕9号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2024-08-01",
+      "published_date": "2024-08-01",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/jd/jd/202408/t20240822_1392535.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "【国家能源局有关负责同志就《电力市场监管办法》答记者问】-国家发展和改革委员会",
+      "doc_no": "国发〔2002〕5号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2024-05-01",
+      "published_date": "2024-05-01",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/jd/jd/202405/t20240508_1370683.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "关于修订省间电力现货交易规则的复函",
+      "doc_no": "发改办体改〔2026〕275号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2026-04-24",
+      "published_date": "2026-04-24",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202604/t20260424_1404879.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "关于做好2023年电力中长期合同签订履约工作的通知",
+      "doc_no": "发改运行〔2022〕1861号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2022-12-22",
+      "published_date": "2022-12-22",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202212/t20221222_1343756.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "关于做好电力现货市场试点连续试结算相关工作的通知",
+      "doc_no": "发改办能源规〔2020〕245号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2020-04-03",
+      "published_date": "2020-04-03",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202004/t20200403_1225133.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "关于印发《电力现货连续运行地区市场建设指引》的通知",
+      "doc_no": "发改能源〔2025〕1171号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2025-09-12",
+      "published_date": "2025-09-12",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202509/t20250912_1400454.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "关于建立全国统一电力市场评价制度的通知",
+      "doc_no": "发改办体改〔2025〕1032号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2025-12-17",
+      "published_date": "2025-12-17",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251217_1402475.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "市场监管司负责人就推进电力市场建设的实施意见答记者问",
+      "doc_no": "是贯彻落实中发〔2015〕9号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2015-12-01",
+      "published_date": "2015-12-01",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "http://www.nea.gov.cn/2015-12/01/c_134872232.htm",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "【《电力市场监管办法》 2024年第18号令】-国家发展和改革委员会",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2024-05-01",
+      "published_date": "2024-05-01",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/fzggwl/202405/t20240506_1366319.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "【国家发展改革委负责同志就《关于完善全国统一电力市场体系的实施意见》接受访谈】-国家发展和改革委员会",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2026-02-01",
+      "published_date": "2026-02-01",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/jd/jd/202602/t20260211_1403695.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "东北能源监管局积极履职推进电力现货市场建设进入加速建设快车道",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2025-04-22",
+      "published_date": "2025-04-22",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://dbj.nea.gov.cn/dtyw/jgdt/202504/t20250422_279930.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "国家能源局新疆监管办公室率先成功推动省级电力备用辅助服务市场结算试运行",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2026-03-24",
+      "published_date": "2026-03-24",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://xjb.nea.gov.cn/dtyw/jgdt/202603/t20260324_298492.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "国家能源局有关负责同志就《关于印发<电力现货连续运行地区市场建设指引>的通知》答记者问",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2025-10-11",
+      "published_date": "2025-10-11",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://hbj.nea.gov.cn/xxgk/zcjd/202510/t20251011_288548.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "国家能源局有关负责同志就《关于印发〈电力辅助服务市场基本规则〉的通知》答记者问",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2025-05-21",
+      "published_date": "2025-05-21",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "",
+      "pdf_url": "https://ynb.nea.gov.cn/xxgk/zcjd/202505/P020250521450590956168.pdf",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "国家能源局西北监管局关于明确电力辅助服务市场价格机制等相关事项的通知",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2025-07-01",
+      "published_date": "2025-07-01",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://xbj.nea.gov.cn/dtyw/tzgg/202507/t20250701_283698.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "我国省级电力现货市场实现基本全覆盖",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2025-11-20",
+      "published_date": "2025-11-20",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://xbj.nea.gov.cn/dtyw/hyxx/202511/t20251120_290814.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "电力现货市场加速“转正”",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2024-06-21",
+      "published_date": "2024-06-21",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "http://www.nea.gov.cn/2024-06/21/c_1310779169.htm",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "省间现货市场正式运行——我国电力体制改革再上新台阶",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2024-10-18",
+      "published_date": "2024-10-18",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "http://www.nea.gov.cn/2024-10/18/c_1310786781.htm",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "蒙西电力现货市场转入正式运行阶段",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2025-02-27",
+      "published_date": "2025-02-27",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "https://hbj.nea.gov.cn/dtyw/jgdt/202502/t20250227_277258.html",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    },
+    {
+      "title": "首个电力现货市场基本规则出台",
+      "doc_no": "无文号",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "signed_date": "2023-09-25",
+      "published_date": "2023-09-25",
+      "category": "电力市场 ／ 中长期 ／ 现货 ／ 辅助服务 ／ 容量电价 ／ 跨省交易",
+      "html_url": "http://www.nea.gov.cn/2023-09/25/c_1310742956.htm",
+      "pdf_url": "",
+      "selection_basis": "按清单主题关键词筛选官方来源；排除1-27批同正式文号/同标题；不重复下载已有PDF"
+    }
+  ]
+}
