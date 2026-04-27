@@ -14,10 +14,12 @@
   "anchor_selector": "",
   "direct_pdf_error": "HTTP Error 404: Not Found",
   "error": "",
-  "generated_at": "2026-04-27T06:53:57.585041",
+  "generated_at": "2026-04-27T18:21:30.328680",
   "pdf_path": "/Users/mf/.openclaw/workspace/knowledge-base/政策监控/戴总的政策文件（60部分清单）/24_储能 ／ 抽水蓄能 ／ 新型储能 ／ 电化学储能 ／ 氢能储能/pdf/2024-07-26_发改能源〔2024〕1128号_加快构建新型电力系统行动方案（2024—2027年）.pdf",
   "screenshot_path": "",
   "markdown_path": "",
   "size_bytes": 37290,
-  "sha1": "fe986e2f4af8523dddc02f1cb0e196c641bf370b"
+  "sha1": "0fde31e36c95cb886f23f807bca9d9acf80725e8",
+  "synced_from_raw": "/Users/mf/.openclaw/workspace/knowledge-base/政策监控/戴总的政策文件（60部分清单）/24_储能 ／ 抽水蓄能 ／ 新型储能 ／ 电化学储能 ／ 氢能储能/_refetch_raw_20260427",
+  "synced_at": "2026-04-27T18:23:30+08:00"
 }
