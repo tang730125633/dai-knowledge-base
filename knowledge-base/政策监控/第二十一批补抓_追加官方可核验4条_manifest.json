@@ -1,0 +1,45 @@
+{
+  "batch_name": "第二十一批补抓：追加官方可核验4条",
+  "documents": [
+    {
+      "signed_date": "2017-09-20",
+      "published_date": "2017-09-26",
+      "doc_no": "发改运行规〔2017〕1690号",
+      "title": "关于深入推进供给侧结构性改革做好新形势下电力需求侧管理工作的通知",
+      "issuing_body": "国家发展改革委 工业和信息化部 财政部 住房城乡建设部 国务院国资委 国家能源局",
+      "category": "21_电力需求响应 ／ 负荷管理 ／ 有序用电 ／ 柔性负荷",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/201709/t20170926_960924.html",
+      "pdf_url": "https://www.ndrc.gov.cn/fzggw/jgsj/yxj/sjdt/201709/W020190906471173448253.pdf"
+    },
+    {
+      "signed_date": "2025-02-20",
+      "published_date": "2025-02-24",
+      "doc_no": "工信厅运行函〔2025〕60号",
+      "title": "工业和信息化部办公厅关于开展全国工业领域电力需求侧管理典型案例（2025年）及第七批参考产品（技术）征集工作的通知",
+      "issuing_body": "工业和信息化部办公厅",
+      "category": "21_电力需求响应 ／ 负荷管理 ／ 有序用电 ／ 柔性负荷",
+      "html_url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_85b500a825f64876be0bfe34b501a43e.html",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2021-07-26",
+      "published_date": "2021-07-29",
+      "doc_no": "发改价格〔2021〕1093号",
+      "title": "国家发展改革委关于进一步完善分时电价机制的通知",
+      "issuing_body": "国家发展改革委",
+      "category": "21_电力需求响应 ／ 负荷管理 ／ 有序用电 ／ 柔性负荷",
+      "html_url": "https://www.gov.cn/zhengce/zhengceku/2021-07/29/content_5628297.htm",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2011-04-21",
+      "published_date": "2011-04-28",
+      "doc_no": "发改运行〔2011〕832号",
+      "title": "关于印发《有序用电管理办法》的通知",
+      "issuing_body": "国家发展改革委",
+      "category": "21_电力需求响应 ／ 负荷管理 ／ 有序用电 ／ 柔性负荷",
+      "html_url": "https://www.ndrc.gov.cn/fzggw/jgsj/yxj/sjdt/201104/t20110428_987489.html",
+      "pdf_url": ""
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "batch_name": "第二十三批补抓：追加官方可核验3条",
+  "documents": [
+    {
+      "signed_date": "2025-07-04",
+      "published_date": "2025-08-18",
+      "doc_no": "国能建电力〔2025〕0983号",
+      "title": "对十四届全国人大三次会议第0983号建议的答复",
+      "issuing_body": "国家能源局",
+      "category": "23_新型电力系统 ／ 源网荷储 ／ 虚拟电厂 ／ 微电网 ／ 智能电网",
+      "html_url": "https://www.nea.gov.cn/20250818/efdb079a2b19409498503c7634e04aa0/c.html",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2022-10-09",
+      "published_date": "2022-10-09",
+      "doc_no": "国能发科技〔2022〕86号",
+      "title": "国家能源局关于印发《能源碳达峰碳中和标准化提升行动计划》的通知",
+      "issuing_body": "国家能源局",
+      "category": "23_新型电力系统 ／ 源网荷储 ／ 虚拟电厂 ／ 微电网 ／ 智能电网",
+      "html_url": "https://www.nea.gov.cn/2022-10/09/c_1310668927.htm",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2025-04-13",
+      "published_date": "2025-04-13",
+      "doc_no": "无文号",
+      "title": "大力发展虚拟电厂，提升源网荷储协同互动水平",
+      "issuing_body": "国家能源局",
+      "category": "23_新型电力系统 ／ 源网荷储 ／ 虚拟电厂 ／ 微电网 ／ 智能电网",
+      "html_url": "https://www.nea.gov.cn/20250413/625ef23ff8b24d2fa58e352bdcdbfd87/c.html",
+      "pdf_url": ""
+    }
+  ]
+}
