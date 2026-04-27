@@ -1,0 +1,247 @@
+{
+  "batch_name": "第49批按清单官方可核验",
+  "documents": [
+    {
+      "signed_date": "2017-09-20",
+      "published_date": "2017-09-26",
+      "doc_no": "发改运行规〔2017〕1690号",
+      "title": "关于深入推进供给侧结构性改革做好新形势下电力需求侧管理工作的通知",
+      "issuing_body": "国家发展改革委 工业和信息化部 财政部 住房城乡建设部 国务院国资委 国家能源局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/201709/t20170926_960924.html",
+      "pdf_url": "https://www.ndrc.gov.cn/fzggw/jgsj/yxj/sjdt/201709/W020190906471173448253.pdf",
+      "source_theme": "21_电力需求响应 ／ 负荷管理 ／ 有序用电 ／ 柔性负荷"
+    },
+    {
+      "signed_date": "2016-02-24",
+      "published_date": "",
+      "doc_no": "发改能源〔2016〕392号",
+      "title": "关于推进“互联网+”智慧能源发展的指导意见",
+      "issuing_body": "国家发展改革委 国家能源局 工业和信息化部",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/201602/t20160229_963595.html",
+      "pdf_url": "",
+      "source_theme": "09_电力能源数字化 ／ 智慧能源 ／ 电力大数据 ／ 能源互联网 ／ 虚拟电厂"
+    },
+    {
+      "signed_date": "2021-07-26",
+      "published_date": "2021-07-26",
+      "doc_no": "发改价格〔2021〕1093号",
+      "title": "关于进一步完善分时电价机制的通知",
+      "issuing_body": "国家发展改革委",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.gov.cn/zhengce/zhengceku/2021-07/29/content_5628297.htm",
+      "pdf_url": "",
+      "source_theme": "36_新型储能（抽水蓄能、电化学储能）规划、并网、价格、容量价值、参与市场、调度运行"
+    },
+    {
+      "signed_date": "2021-10-26",
+      "published_date": "2021-10-26",
+      "doc_no": "国发〔2021〕23号",
+      "title": "2030年前碳达峰行动方案",
+      "issuing_body": "国务院",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.mee.gov.cn/zcwj/gwywj/202110/t20211026_957879.shtml?type=bgxz",
+      "pdf_url": "",
+      "source_theme": "01_综合能源 ／ 双碳顶层"
+    },
+    {
+      "signed_date": "2021-12-28",
+      "published_date": "2022-01-27",
+      "doc_no": "国发〔2021〕33号",
+      "title": "“十四五”节能减排综合工作方案",
+      "issuing_body": "",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/fggz/hjyzy/jnhnx/202201/t20220127_1313521_ext.html",
+      "pdf_url": "",
+      "source_theme": "08_电力安全 ／ 电力监管 ／ 电力项目管理 ／ 电力环保"
+    },
+    {
+      "signed_date": "2021-03-04",
+      "published_date": "",
+      "doc_no": "发改能源规〔2021〕280号",
+      "title": "关于推进电力源网荷储一体化和多能互补发展的指导意见",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202103/t20210305_1269046.html",
+      "pdf_url": "",
+      "source_theme": "11_电网规划 ／ 特高压 ／ 配电网 ／ 微电网 ／ 农网升级 ／ 跨省跨区输电"
+    },
+    {
+      "signed_date": "2021-11-08",
+      "published_date": "2021-11-08",
+      "doc_no": "发改能源规〔2021〕1589号",
+      "title": "电力辅助服务管理办法",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "",
+      "pdf_url": "https://zfxxgk.ndrc.gov.cn/upload/images/20229/20229251646834.pdf",
+      "source_theme": "38_电力市场（中长期 ／ 现货 ／ 辅助服务 ／ 容量）、跨省跨区交易、绿电绿证、电力交易规则"
+    },
+    {
+      "signed_date": "2022-02-10",
+      "published_date": "2022-02-10",
+      "doc_no": "发改能源〔2022〕206号",
+      "title": "关于完善能源绿色低碳转型体制机制和政策措施的意见",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202202/t20220210_1314511.html",
+      "pdf_url": "",
+      "source_theme": "01_综合能源 ／ 双碳顶层"
+    },
+    {
+      "signed_date": "2022-05-24",
+      "published_date": "2022-06-07",
+      "doc_no": "发改办运行〔2022〕475号",
+      "title": "关于进一步推动新型储能参与电力市场和调度运用的通知",
+      "issuing_body": "",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202206/t20220607_1326854_ext.html",
+      "pdf_url": "",
+      "source_theme": "07_电力规划 ／ 电网建设 ／ 源网荷储 ／ 新型电力系统"
+    },
+    {
+      "signed_date": "2022-06-23",
+      "published_date": "",
+      "doc_no": "工信部联节〔2022〕76号",
+      "title": "工业和信息化部等六部门关于印发工业能效提升行动计划的通知",
+      "issuing_body": "工业和信息化部、国家发展改革委、财政部、生态环境部、国务院国资委、市场监管总局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.miit.gov.cn/jgsj/jns/wjfb/art/2022/art_c18a3760fbe14c4d9a10de801a7598a9.html",
+      "pdf_url": "",
+      "source_theme": "13_综合能源服务 ／ 零碳园区 ／ 节能降碳 ／ 近零碳排放区 ／ 绿色制造"
+    },
+    {
+      "signed_date": "2023-09-07",
+      "published_date": "",
+      "doc_no": "发改运行规〔2023〕1261号",
+      "title": "国家发展改革委 国家能源局关于印发《电力负荷管理办法（2023年版）》的通知",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20275",
+      "pdf_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202309/P020230927322829159702.pdf",
+      "source_theme": "09_电力能源数字化 ／ 智慧能源 ／ 电力大数据 ／ 能源互联网 ／ 虚拟电厂"
+    },
+    {
+      "signed_date": "2023-09-15",
+      "published_date": "",
+      "doc_no": "发改运行规〔2023〕1283号",
+      "title": "国家发展改革委等部门关于印发《电力需求侧管理办法（2023年版）》的通知",
+      "issuing_body": "国家发展改革委 工业和信息化部 财政部 住房城乡建设部 国务院国资委 国家能源局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20274",
+      "pdf_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202309/P020230927316131533276.pdf",
+      "source_theme": "09_电力能源数字化 ／ 智慧能源 ／ 电力大数据 ／ 能源互联网 ／ 虚拟电厂"
+    },
+    {
+      "signed_date": "2024-02-07",
+      "published_date": "",
+      "doc_no": "发改价格〔2024〕196号",
+      "title": "关于建立健全电力辅助服务市场价格机制的通知",
+      "issuing_body": "国家发展改革委、国家能源局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202402/t20240208_1364053.html",
+      "pdf_url": "",
+      "source_theme": "15_煤电转型 ／ 灵活性改造 ／ 调峰电源 ／ 煤电节能降碳 ／ CCUS"
+    },
+    {
+      "signed_date": "2024-07-26",
+      "published_date": "",
+      "doc_no": "发改能源〔2024〕1128号",
+      "title": "加快构建新型电力系统行动方案（2024—2027年）",
+      "issuing_body": "国家发展改革委、国家能源局、国家数据局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202408/t20240806_1392350.html",
+      "pdf_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202408/P020240806580427069085.pdf",
+      "source_theme": "15_煤电转型 ／ 灵活性改造 ／ 调峰电源 ／ 煤电节能降碳 ／ CCUS"
+    },
+    {
+      "signed_date": "2024-11-28",
+      "published_date": "2024-12-05",
+      "doc_no": "国能发法改〔2024〕93号",
+      "title": "关于支持电力领域新型经营主体创新发展的指导意见",
+      "issuing_body": "国家能源局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://zfxxgk.nea.gov.cn/2024-11/28/c_1212408354.htm",
+      "pdf_url": "",
+      "source_theme": "09_电力能源数字化 ／ 智慧能源 ／ 电力大数据 ／ 能源互联网 ／ 虚拟电厂"
+    },
+    {
+      "signed_date": "2024-12-20",
+      "published_date": "2025-01-06",
+      "doc_no": "发改能源〔2024〕1803号",
+      "title": "电力系统调节能力优化专项行动实施方案（2025—2027年）",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202501/t20250106_1395479.html",
+      "pdf_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202501/P020250106572482271813.pdf",
+      "source_theme": "07_电力规划 ／ 电网建设 ／ 源网荷储 ／ 新型电力系统"
+    },
+    {
+      "signed_date": "2025-03-25",
+      "published_date": "2025-04-11",
+      "doc_no": "发改能源〔2025〕357号",
+      "title": "关于加快推进虚拟电厂发展的指导意见",
+      "issuing_body": "",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202504/t20250411_1397162.html",
+      "pdf_url": "",
+      "source_theme": "09_电力能源数字化 ／ 智慧能源 ／ 电力大数据 ／ 能源互联网 ／ 虚拟电厂"
+    },
+    {
+      "signed_date": "2025-04-10",
+      "published_date": "2025-04-29",
+      "doc_no": "发改能源规〔2025〕411号",
+      "title": "电力辅助服务市场基本规则",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202504/t20250429_1397483.html",
+      "pdf_url": "",
+      "source_theme": "09_电力能源数字化 ／ 智慧能源 ／ 电力大数据 ／ 能源互联网 ／ 虚拟电厂"
+    },
+    {
+      "signed_date": "2025-09-09",
+      "published_date": "",
+      "doc_no": "发改价格〔2025〕1192号",
+      "title": "关于完善价格机制促进新能源发电就近消纳的通知",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202509/t20250912_1400444.html",
+      "pdf_url": "",
+      "source_theme": "11_电网规划 ／ 特高压 ／ 配电网 ／ 微电网 ／ 农网升级 ／ 跨省跨区输电"
+    },
+    {
+      "signed_date": "2025-10-29",
+      "published_date": "2025-11-10",
+      "doc_no": "发改能源〔2025〕1360号",
+      "title": "关于促进新能源消纳和调控的指导意见",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202511/t20251110_1401470.html",
+      "pdf_url": "",
+      "source_theme": "07_电力规划 ／ 电网建设 ／ 源网荷储 ／ 新型电力系统"
+    },
+    {
+      "signed_date": "2025-10-01",
+      "published_date": "2025-10-01",
+      "doc_no": "发改运行规〔2025〕1193号",
+      "title": "关于印发《跨省跨区电力应急调度管理办法》的通知",
+      "issuing_body": "国家发展改革委/国家能源局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202510/t20251013_1400912.html",
+      "pdf_url": "",
+      "source_theme": "27_电力规划 ／ 电网规划 ／ 特高压 ／ 主网架 ／ 配电网 ／ 智能化"
+    },
+    {
+      "signed_date": "2026-01-27",
+      "published_date": "2026-01-30",
+      "doc_no": "发改价格〔2026〕114号",
+      "title": "关于完善发电侧容量电价机制的通知",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "category": "49_电力需求侧管理、需求响应、节约用电与能效管理",
+      "html_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202601/t20260130_1403525.html",
+      "pdf_url": "",
+      "source_theme": "09_电力能源数字化 ／ 智慧能源 ／ 电力大数据 ／ 能源互联网 ／ 虚拟电厂"
+    }
+  ]
+}
