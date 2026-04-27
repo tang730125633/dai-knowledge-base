@@ -1,0 +1,95 @@
+{
+  "batch_name": "第二十一批逐条对应：清单可核验9条",
+  "documents": [
+    {
+      "signed_date": "2023-09-15",
+      "published_date": "",
+      "doc_no": "发改运行规〔2023〕1283号",
+      "title": "国家发展改革委等部门关于印发《电力需求侧管理办法（2023年版）》的通知",
+      "issuing_body": "国家发展改革委 工业和信息化部 财政部 住房城乡建设部 国务院国资委 国家能源局",
+      "category": "21_电力需求响应 ／ 负荷管理 ／ 有序用电 ／ 柔性负荷",
+      "html_url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20274",
+      "pdf_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202309/P020230927316131533276.pdf"
+    },
+    {
+      "signed_date": "2024-02-27",
+      "published_date": "2024-02-27",
+      "doc_no": "发改能源〔2024〕197号",
+      "title": "关于加强电网调峰储能和智能化调度能力建设的指导意见",
+      "issuing_body": "",
+      "category": "21_电力需求响应 ／ 负荷管理 ／ 有序用电 ／ 柔性负荷",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202402/t20240227_1364257.html",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2025-04-10",
+      "published_date": "2025-04-29",
+      "doc_no": "发改能源规〔2025〕411号",
+      "title": "电力辅助服务市场基本规则",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "category": "21_电力需求响应 ／ 负荷管理 ／ 有序用电 ／ 柔性负荷",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202504/t20250429_1397483.html",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2025-03-25",
+      "published_date": "2025-04-11",
+      "doc_no": "发改能源〔2025〕357号",
+      "title": "关于加快推进虚拟电厂发展的指导意见",
+      "issuing_body": "",
+      "category": "21_电力需求响应 ／ 负荷管理 ／ 有序用电 ／ 柔性负荷",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202504/t20250411_1397162.html",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2023-09-07",
+      "published_date": "",
+      "doc_no": "发改运行规〔2023〕1261号",
+      "title": "国家发展改革委 国家能源局关于印发《电力负荷管理办法（2023年版）》的通知",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "category": "21_电力需求响应 ／ 负荷管理 ／ 有序用电 ／ 柔性负荷",
+      "html_url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20275",
+      "pdf_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202309/P020230927322829159702.pdf"
+    },
+    {
+      "signed_date": "2021-07-15",
+      "published_date": "2021-07-23",
+      "doc_no": "发改能源规〔2021〕1051号",
+      "title": "关于加快推动新型储能发展的指导意见",
+      "issuing_body": "",
+      "category": "21_电力需求响应 ／ 负荷管理 ／ 有序用电 ／ 柔性负荷",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202107/t20210723_1291321.html",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2024-07-26",
+      "published_date": "",
+      "doc_no": "发改能源〔2024〕1128号",
+      "title": "加快构建新型电力系统行动方案（2024—2027年）",
+      "issuing_body": "国家发展改革委、国家能源局、国家数据局",
+      "category": "21_电力需求响应 ／ 负荷管理 ／ 有序用电 ／ 柔性负荷",
+      "html_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202408/t20240806_1392350.html",
+      "pdf_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202408/P020240806580427069085.pdf"
+    },
+    {
+      "signed_date": "2025-09-09",
+      "published_date": "2025-09-12",
+      "doc_no": "发改价格〔2025〕1192号",
+      "title": "关于完善价格机制促进新能源发电就近消纳的通知",
+      "issuing_body": "",
+      "category": "21_电力需求响应 ／ 负荷管理 ／ 有序用电 ／ 柔性负荷",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202509/t20250912_1400444.html",
+      "pdf_url": ""
+    },
+    {
+      "signed_date": "2023-09-07",
+      "published_date": "2023-09-15",
+      "doc_no": "发改能源规〔2023〕1217号",
+      "title": "电力现货市场基本规则（试行）",
+      "issuing_body": "国家发展改革委 国家能源局",
+      "category": "21_电力需求响应 ／ 负荷管理 ／ 有序用电 ／ 柔性负荷",
+      "html_url": "https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202309/t20230915_1360625.html",
+      "pdf_url": ""
+    }
+  ]
+}
